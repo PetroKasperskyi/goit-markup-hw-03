@@ -14,12 +14,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-button:hover,
-button:focus {
-  color: #ffffff;
-  background-color: var(--hover-focus-color);
-  border-color: var(--hover-focus-color);
+.container {
+  width: 1158px;
 }
+
 .list {
   list-style: none;
 }
@@ -30,6 +28,26 @@ button:focus {
 .link:focus {
   color: var(--hover-focus-color);
 }
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
 /* Header*/
 
 .logo {
@@ -68,6 +86,10 @@ button:focus {
   color: #ffffff;
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--hover-focus-color);
+}
 .hero-button {
   font-weight: 500;
   font-size: 16px;
@@ -140,6 +162,13 @@ button:focus {
   color: #e7e9fc;
 }
 /*--------- Portfolio---------*/
+
+.filters-button:hover,
+.filters-button:focus {
+  color: #ffffff;
+  background-color: var(--hover-focus-color);
+  border-color: var(--hover-focus-color);
+}
 
 .filters-button {
   font-weight: 500;
