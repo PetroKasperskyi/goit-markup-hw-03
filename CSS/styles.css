@@ -5,6 +5,22 @@
   --hover-focus-color: #404bbf;
 }
 
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0 auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -15,7 +31,7 @@ body {
   letter-spacing: 0.02em;
 }
 .container {
-  width: 1128px;
+  width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -30,21 +46,6 @@ body {
 .link:hover,
 .link:focus {
   color: var(--hover-focus-color);
-}
-h1,
-h2,
-h3,
-h4,
-p {
-  margin: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-}
-img {
-  display: block;
 }
 
 /* Header*/
@@ -85,13 +86,14 @@ img {
   background: #2e2f42;
   text-align: center;
 }
-.hero-text {
+.hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: #ffffff;
   width: 494px;
+  margin-bottom: 48px;
 }
 
 .hero-button:hover,
@@ -114,35 +116,59 @@ img {
 }
 
 /* About section*/
+
+.about {
+  padding: 120px 0;
+}
 .about-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--title-text-color);
+  margin-bottom: 8px;
 }
 
 /*Products section*/
-
+.prod-sect {
+  padding: 120px 0;
+}
 .prod-sect-header {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 72px;
 }
+
 /*Our team*/
+
+.team-section {
+  padding: 120px 0;
+}
 .team-header {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 72px;
+}
+.team-item {
+  text-align: center;
+}
+
+.team-sect-text {
+  margin: 32px 16px;
 }
 .team-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--title-text-color);
+  margin-bottom: 8px;
 }
 
 /*Footer*/
