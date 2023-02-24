@@ -37,6 +37,9 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+.section {
+  padding-bottom: 120px;
+}
 
 .list {
   list-style: none;
@@ -54,6 +57,12 @@ body {
   padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -63,6 +72,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .web {
   color: #4d5ae5;
@@ -71,13 +81,12 @@ body {
   color: var(--title-text-color);
 }
 
-.menu-list {
-}
 .menu-link {
   font-weight: 500;
   color: var(--title-text-color);
 }
-.contacts {
+.menu-list {
+  margin-left: 46px;
 }
 .contacts-link {
   color: var(--primary-text-color);
@@ -86,6 +95,7 @@ body {
 .hero-section {
   background: #2e2f42;
   text-align: center;
+  padding: 188px 0;
 }
 .hero-title {
   font-weight: 700;
@@ -117,9 +127,25 @@ body {
 }
 
 /* About section*/
-
+.visually-hidden {
+  position: absolute;
+  top: -150;
+  z-index: -100;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  user-select: none;
+  cursor: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  white-space: nowrap;
+}
 .about {
-  padding: 120px 0;
+  padding-top: 120px;
 }
 .about-list {
   display: flex;
@@ -138,7 +164,7 @@ body {
 
 /*Products section*/
 .prod-sect {
-  padding: 120px 0;
+  padding-bottom: 120px;
 }
 .prod-sect-header {
   font-weight: 700;
@@ -159,9 +185,6 @@ body {
 
 /*Our team*/
 
-.team-section {
-  padding: 120px 0;
-}
 .team-header {
   font-weight: 700;
   font-size: 36px;
@@ -205,7 +228,6 @@ body {
   font-size: 18px;
   line-height: 1.2;
 
-  display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -232,8 +254,17 @@ body {
   background-color: var(--hover-focus-color);
   border-color: var(--hover-focus-color);
 }
-
+.filters-list {
+  width: 586px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  margin: 96px auto 72px auto;
+}
 .filters-button {
+  display: inline-block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
