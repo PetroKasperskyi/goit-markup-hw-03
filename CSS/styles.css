@@ -29,6 +29,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 1440px;
 }
 .container {
   width: 1158px;
@@ -120,6 +121,13 @@ body {
 .about {
   padding: 120px 0;
 }
+.about-list {
+  display: flex;
+  flex-direction: row;
+}
+.about-item:not(:last-child) {
+  margin-right: 24px;
+}
 .about-header {
   font-weight: 500;
   font-size: 20px;
@@ -141,6 +149,13 @@ body {
   text-align: center;
   margin-bottom: 72px;
 }
+.prod-sect-list {
+  display: flex;
+  flex-direction: row;
+}
+.prod-sect-item:not(:last-child) {
+  margin-right: 24px;
+}
 
 /*Our team*/
 
@@ -156,10 +171,16 @@ body {
   text-align: center;
   margin-bottom: 72px;
 }
+.team-list {
+  display: flex;
+  flex-direction: row;
+}
 .team-item {
   text-align: center;
 }
-
+.team-item:not(:last-child) {
+  margin-right: 24px;
+}
 .team-sect-text {
   margin: 32px 16px;
 }
@@ -175,6 +196,7 @@ body {
 
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 
 .logo-footer {
@@ -187,6 +209,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 16px;
 }
 .web-footer {
   color: #4d5ae5;
@@ -196,6 +219,10 @@ body {
 }
 .footer-text {
   color: #e7e9fc;
+  width: 264px;
+
+  height: 72px;
+  margin-left: 0;
 }
 /*--------- Portfolio---------*/
 
