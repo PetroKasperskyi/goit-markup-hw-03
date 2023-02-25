@@ -299,8 +299,6 @@ body {
 }
 
 .projects-meny-item {
-  border: 1px solid #e7e9fc;
-
   width: 360px;
   padding: 0;
 }
@@ -311,6 +309,7 @@ body {
   margin-bottom: 8px;
 }
 .project-menu-text-box {
-  margin: 32px 0;
-  padding: 0 16px;
+  margin-bottom: 32px;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
