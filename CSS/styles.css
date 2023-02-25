@@ -197,7 +197,9 @@ body {
 }
 
 /*Our team*/
-
+.team-section {
+  padding-top: 120px;
+}
 .team-header {
   font-weight: 700;
   font-size: 36px;
